@@ -59,7 +59,7 @@ The project aims at the Classification of breast cancer through the processing o
   - **Accuracy:** 90.24%  
   - **Loss:** 0.2399  
 - Although the custom CNN showed the largest relative improvement during fine-tuning, VGG16 outperformed all models in final evaluation.
-![image](https://github.com/user-attachments/assets/abb74c1c-c166-4278-8bc0-2bb7c359ad9b)
+  ![image](https://github.com/user-attachments/assets/a4986b15-9ea9-4f3a-b23e-0eb0a61c7001)
 
 
 ## 📊 **Statistical Test (One-Way ANOVA):**  
