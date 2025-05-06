@@ -1,7 +1,7 @@
-# 🩺 Breast Cancer Detection Using Ultrasound Images
+# 🩺 Breast Cancer Binary Classifiction Using Ultrasound Images
 
 🎯 **Objective**  
-The project aims at the early detection of breast cancer through the processing of ultrasound images and their classification into benign or malignant cases. The goal is to develop a reliable binary classification model that can support diagnostic decisions.
+The project aims at the Classification of breast cancer through the processing of ultrasound images into benign or malignant cases. The goal is to develop a reliable binary classification model that can identify diagnostic decisions.
 
 📚 **Dataset**  
 - **Name:** Breast Ultrasound Images Dataset  
@@ -13,7 +13,8 @@ The project aims at the early detection of breast cancer through the processing 
 - **Usage in this project:** Only benign and malignant categories were used for binary classification.
 
 📊 **Exploratory Data Analysis (EDA)**  
-- Mean heatmap per class  
+- Mean Picture per class
+- Heatmaps  
 - Pixel value histograms  
 - PCA (2D projection)
 
@@ -33,14 +34,15 @@ The project aims at the early detection of breast cancer through the processing 
 - ResNet50 (pretrained on ImageNet)
 
 🧪 **Training & Evaluation**  
-- **Cross-validation:** 5-fold cross-validation was used to ensure robust evaluation of each model.  
+- **Cross-validation:** 3-fold cross-validation was used to ensure robust evaluation of each model.  
 - **Early Stopping:** Training was monitored using `val_loss`, and the best model weights were saved automatically.  
 - **Evaluation Metrics:**  
   - Accuracy  
   - Precision  
   - Recall  
   - F1-score  
-  - Confusion Matrix  
+  - Confusion Matrix
+  - Loss Curves 
 
 - **Metrics were calculated on the test set and individually for each fold** during k-fold cross-validation.
 
