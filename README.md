@@ -11,6 +11,8 @@ The project aims at the Classification of breast cancer through the processing o
   - Malignant  
   - Normal  
 - **Usage in this project:** Only benign and malignant categories were used for binary classification.
+![image](https://github.com/user-attachments/assets/15c81c1e-40e9-48f4-b98f-51c3120bd9e6)
+
 
 ## 📊 **Exploratory Data Analysis (EDA)**  
 - Mean Picture per class
