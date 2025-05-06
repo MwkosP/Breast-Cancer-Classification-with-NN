@@ -65,5 +65,7 @@ To quantitatively assess performance differences between the three models, a one
 - The low p-value suggests statistically significant differences between model performances.
 
 ## 🧑‍💻 Author
-Created by Panagiotis Mokos
+
+Created by Panagiotis Mokos  
 GitHub: [@MwkosP](https://github.com/MwkosP)
+
